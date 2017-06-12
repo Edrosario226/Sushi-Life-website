@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+
+  font-family:'Open-sans', sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+}
+
+img{
+  width:100%;
+}
+
+.container{
+  margin:auto;
+}
+
+/* COMMON CLASSES */
+.primary-text{
+  color:#56a79a;
+}
+
+.primary-background{
+  background:#56a79a;
+}
+
+/* HEADER */
+/*#main-header{
+  border-bottom:1px solid #56a79a;    
+}*/
+
+/* NAVBAR */
+#navbar{
+  text-transform:uppercase;
+
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#56a79a;
+  border-bottom: 3px solid #56a79a;
+  padding-bottom:3px;
+}
+
+.button_top {
+          background-color:  #56a79a;
+          color: #FFFFFF !important;
+          border-radius: 10px;
+          padding: 10px 40px;
+            -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+          -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+/* SHOWCASE */
+#showcase{
+  background:url('../img/bg.jpg') no-repeat center center;
+  margin-bottom:0;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  font-family: 'Lora', serif;
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+}
+
+#showcase p{
+  color:#ccc;
+  margin:0;
+}
+
+#showcase .showcase-content{
+  background:#333;
+  color:#fff;
+
+  padding:40px;
+  opacity:0.9;
+}
+
+/* Address */
+#address {
+  background:url('../img/bg-image-11.jpg') no-repeat center center;
+  margin-bottom:0;
+    padding-bottom:0;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#address .address-content{
+  background:#C1BA04;
+  color:#fff;
+  padding:40px;
+  opacity:0.9;
+}
+
+#address  .row{
+  height:600px;
+}
+
+#address h1 {
+    font-family: 'Lora', serif;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 50px
+}
+#address  h2{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin:0;
+  padding: 20px 20px 20px 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+#address  p{
+  color:#ccc;
+  margin: 0;
+  padding: 0;
+}
+#address  li{
+  color:#fff;
+  list-style: none;
+  line-height: 2em;
+  margin-right: 10px;
+}
+
+
+/* Coupons */
+#coupon {
+    background-color: #071727;
+    padding: 10px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+#coupon input[type="text"]{
+  padding:7px;
+}
+
+form {
+  display: block;
+  margin-top: 15px;
+  float: right;
+}
+
+#coupon button {
+  padding: 8px 15px;
+}
+#coupon .row {
+    padding: 8px;
+}
+
+#coupon h4 {
+    padding-bottom: 0;
+}
+
+#coupon p {
+    font-size: 15px;
+}
+
+hr {
+    width: 50px;
+}
+
+
+/* GALLERY */
+
+#gallery p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+#gallery h2 {
+    padding-top: 50px;
+    font-family: 'Lora', serif;
+}
+/*********/
+
+a {
+    text-decoration: none;
+}
+h2 {
+    text-transform:capitalize;
+}
+
+/* Menu */
+
+#Menu {
+  background:url('../img/WebBg1.png') no-repeat center center;
+
+    padding-bottom:0;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu .box {
+    margin: 40px 0 40px 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+/***********************/
+
+
+
+/* FOOTER */
+#main-footer{
+  background: #071727;
+  color:#fff;
+    font-size: 12px;
+}
+
+
