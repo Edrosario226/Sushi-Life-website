@@ -1,0 +1,32 @@
+<html>
+  <head><title>Sushi Restaurants in SFO</title>
+  <style type='text/css'>
+	#title {margin-left: 5%;}
+	#results1{ width: 20%; margin-left: 5%; border: 3px solid gray; padding: 5px; height: 200px; overflow: auto; } 
+</style>
+
+<script type='text/javascript'>
+		function top_stories1(o){      
+  var items = o.query.results.Result;
+  var output = '';
+  var no_items=items.length;
+  for(var i=0;i<no_items;i++){
+    var title = items[i].Title;
+    var link = items[i].Url; 
+	var rat = items[i].Rating.AverageRating;
+	var ph=items[i].Phone;
+    var desc = items[i].Rating.LastReviewIntro;
+    output += "<h3><a href='" + link + "'>"+title+"</a></h3>"+ ph + "<br/>" + "Average rating "+rat + "<hr/><hr/>" + desc + "<br/>" ;
+  }
+  document.getElementById('results1').innerHTML = output;  }</script>
+
+  </head>
+  <body>
+     <br/><br/><p id='title'>Sushi Restaurants in San Francisco</p><br/><br/>
+	 <div id='results1'>
+	
+	<script src='https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20local.search%20where%20query%3D%22sushi%22%20and%20location%3D%22san%20francisco%2C%20ca%22&format=json&diagnostics=true&callback=top_stories1'></script>
+	
+	</div>
+	 </body>
+	 </html>
